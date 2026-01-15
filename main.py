@@ -1,3 +1,5 @@
+# Author: Rutwik S <23BCS112>
+
 import argparse
 import sys
 from typing import Callable

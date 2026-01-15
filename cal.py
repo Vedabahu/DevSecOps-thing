@@ -46,7 +46,7 @@ def sub(a: int | float, b: int | float) -> float:
         b (int | float): Second number to subtract
     Returns:
         float: Result of subtraction
-        
+
     Author: Barghav Abhilash B R (23bcs028)
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
@@ -63,6 +63,8 @@ def add(a: int | float, b: int | float) -> float:
         b (int | float): Another number to add
     Returns:
         float: Result of addition
+    Author:
+        Rutwik S <23BCS112>
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("a and b must be numbers.")
