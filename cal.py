@@ -42,10 +42,12 @@ def sub(a: int | float, b: int | float) -> float:
     """
     Subtract two numbers and return the result.
     Args:
-        a (int | float): Minuend
-        b (int | float): Subtrahend
+        a (int | float): First number
+        b (int | float): Second number to subtract
     Returns:
         float: Result of subtraction
+        
+    Author: Barghav Abhilash B R (23bcs028)
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("a and b must be numbers.")
