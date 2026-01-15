@@ -17,3 +17,8 @@ Created in python using uv package manager.
 # Contributing
 
 Refer to [CONTRIBUTING.md](./CONTRIBUTING.md).
+
+### Contributors
+<a href="https://github.com/Vedabahu/DevSecOps-thing/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Vedabahu/DevSecOps-thing" />
+</a>
