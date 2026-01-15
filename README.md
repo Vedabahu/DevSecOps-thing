@@ -1,5 +1,10 @@
 # DevSecOps - Lab 2
 
+![Tests](https://github.com/Vedabahu/DevSecOps-thing/actions/workflows/tests.yml/badge.svg)
+![Dependencies](https://img.shields.io/badge/dependencies-locked-brightgreen)
+![Python](https://img.shields.io/badge/python-3.13-blue)
+
+
 This repo contains a simple calculator app that is not so simple. It just looks simple. 
 
 Created in python using uv package manager.
