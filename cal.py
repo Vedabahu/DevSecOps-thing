@@ -14,3 +14,17 @@ def div(a: int | float, b: int | float) -> float:
         raise ZeroDivisionError("divide by zero.")
 
     return a / b
+
+def sub(a: int | float, b: int | float) -> float:
+    """
+    Subtract two numbers and return the result.
+    Args:
+        a (int | float): Minuend
+        b (int | float): Subtrahend
+    Returns:
+        float: Result of subtraction
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("a and b must be numbers.")
+
+    return a - b
