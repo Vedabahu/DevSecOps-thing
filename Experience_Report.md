@@ -2,7 +2,7 @@
 
 ## Team Roles and Contributions
 
-### Ruthwik M (23BCS112) - Admin/Project Lead
+### Rutwik S (23BCS112) - Admin/Project Lead
 - Repository setup and initialization
 - Access management and team coordination
 - Main branch protection and PR review oversight
