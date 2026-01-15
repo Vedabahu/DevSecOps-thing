@@ -21,6 +21,7 @@ def div(a: int | float, b: int | float) -> float:
 
     return a / b
 
+
 def multiply(a: float, b: float) -> float:
     """
     Multiply two numbers and return the result.
@@ -36,6 +37,7 @@ def multiply(a: float, b: float) -> float:
     """
     return a * b
 
+
 def sub(a: int | float, b: int | float) -> float:
     """
     Subtract two numbers and return the result.
@@ -49,3 +51,18 @@ def sub(a: int | float, b: int | float) -> float:
         raise TypeError("a and b must be numbers.")
 
     return a - b
+
+
+def add(a: int | float, b: int | float) -> float:
+    """
+    Subtract two numbers and return the result.
+    Args:
+        a (int | float): One number
+        b (int | float): Another number to add
+    Returns:
+        float: Result of addition
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("a and b must be numbers.")
+
+    return a + b
