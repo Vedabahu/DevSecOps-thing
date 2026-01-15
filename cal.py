@@ -6,6 +6,12 @@ def div(a: int | float, b: int | float) -> float:
         b (int | float): Denominator
     Returns:
         float: Result of division
+    Raises:
+        TypeError: If a or b is not a number
+        ZeroDivisionError: If b is zero
+
+    Author:
+        Dhruv Koli <googldhruv@gmail.com>
     """
     if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
         raise TypeError("a and b must be numbers.")
@@ -14,7 +20,6 @@ def div(a: int | float, b: int | float) -> float:
         raise ZeroDivisionError("divide by zero.")
 
     return a / b
-
 
 def multiply(a: float, b: float) -> float:
     """
@@ -31,3 +36,16 @@ def multiply(a: float, b: float) -> float:
     """
     return a * b
 
+def sub(a: int | float, b: int | float) -> float:
+    """
+    Subtract two numbers and return the result.
+    Args:
+        a (int | float): Minuend
+        b (int | float): Subtrahend
+    Returns:
+        float: Result of subtraction
+    """
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError("a and b must be numbers.")
+
+    return a - b
