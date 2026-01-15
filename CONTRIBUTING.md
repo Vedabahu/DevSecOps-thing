@@ -1,15 +1,12 @@
-# Contributing to Face Auth Sys
-
+## Contribution Guidelines
 ## Development Workflow
 
 1.  **No Direct Commits to Main**: The `main` branch is protected. Do not commit or push directly to it.
 2.  **Branching Strategy**:
     - Create a new branch for every feature, bug fix, or improvement.
-    - Use descriptive branch names (e.g., `feature/auth-logic`, `fix/face-detection`).
+    - Use descriptive branch names (e.g., `feature/newFeature`).
 3.  **Pull Requests**:
     - All changes must be submitted via a Pull Request (PR).
-    - **Templates**: Please fill out the PR Template and Issue Template (when applicable) to ensure all necessary details are provided.
-    - Ensure your PR has a clear title and description of the changes.
 
 ## Code Review Process
 
